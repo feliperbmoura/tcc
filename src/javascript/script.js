@@ -29,13 +29,13 @@ $(document).ready(function(){
     });
     ScrollReveal().reveal('#cta', {
         origin: 'bottom',
-        duration: 2000,
+        duration: 1000,
         distance: '20%'
     });
 
     ScrollReveal().reveal('.dish', {
         origin: 'bottom',
-        duration: 2000,
+        duration: 1000,
         distance: '20%'
     });
 
