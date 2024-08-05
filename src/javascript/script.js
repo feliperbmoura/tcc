@@ -12,11 +12,6 @@ $(document).ready(function(){
 
         let activeSectionIndex = 0;
 
-        if (scrollPosition <= 0) {
-            header.css('box-shadow', 'none');
-        } else {
-            header.css('box-shadow', '5px 1px 5px rgba(0, 0, 0, 1');
-        }
 
         sections.each(function(i) {
             const section = $(this);
@@ -33,25 +28,25 @@ $(document).ready(function(){
         $(navItems[activeSectionIndex]).addClass('active');
     });
     ScrollReveal().reveal('#cta', {
-        origin: 'left',
+        origin: 'bottom',
         duration: 2000,
         distance: '20%'
     });
 
     ScrollReveal().reveal('.dish', {
-        origin: 'left',
+        origin: 'bottom',
         duration: 2000,
         distance: '20%'
     });
 
     ScrollReveal().reveal('#testimonial-chef', {
-        origin: 'left',
+        origin: 'bottom',
         duration: 1000,
         distance: '20%'
     })
 
     ScrollReveal().reveal('.feedback', {
-        origin: 'right',
+        origin: 'bottom',
         duration: 1000,
         distance: '20%'
     })
